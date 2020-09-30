@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+/**
+ * @copyright 2017 Jan-Simon Winkelmann <winkelmann@blue-metallic.de>
+ * @license MIT
+ */
+
+use Laminas\Mvc\Application;
+
+require 'vendor/autoload.php';
+$app = require 'public/index.php';
+
+if (empty($app) || !($app instanceof Application)) {
+    echo 'Application not returned from index.php';
+	exit;
+}
+
+$app->getServiceManager()
+    ->get('LaminasSymfonyConsole\\Application')
+    ->run();
