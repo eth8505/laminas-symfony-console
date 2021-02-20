@@ -3,6 +3,11 @@ LaminasSymfonyConsole - Laminas Module to integrate Symfony Console
 
 The **LaminasSymfonyConsole** module allows to use the symfony console component with Laminas.
 
+[![CI Status](https://github.com/eth8505/laminas-symfony-console/workflows/phpunit/badge.svg)](https://github.com/eth8505/laminas-symfony-console/actions)
+![Packagist](https://img.shields.io/packagist/dt/eth8505/laminas-symfony-console.svg)
+![Packagist Version](https://img.shields.io/packagist/v/eth8505/laminas-symfony-console.svg)
+![PHP from Packagist](https://img.shields.io/packagist/php-v/eth8505/laminas-symfony-console.svg)
+
 ## How to install
 
 Install `eth8505/laminas-symfony-console` package via composer.
