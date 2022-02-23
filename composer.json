@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^7.3 | 8.0",
+        "php": "^7.3 | ^8.0",
         "symfony/console": "^4.4 | ^5.1",
         "laminas/laminas-mvc": "~3.0",
         "laminas/laminas-servicemanager": "~3.0",
